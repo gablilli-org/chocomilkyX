@@ -718,7 +718,7 @@ header {
 
 h1 {
   font-size: 24px;
-  letter-spacing: .08em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
@@ -777,7 +777,7 @@ button,
 button:active,
 #importBtn:active,
 #importModal button:active {
-  transform: scale(.98);
+  transform: scale(0.98);
   box-shadow: none;
 }
 
