@@ -687,3 +687,111 @@ button:active,
     justify-content: space-between;
   }
 }
+
+/* ipa analyzer ui skin */
+:root {
+  --bg: #0a0a0a;
+  --card: #111;
+  --accent: #ededed;
+  --text: #ededed;
+  --subtle: #888;
+  --radius: 8px;
+  --shadow: none;
+}
+
+body::before {
+  display: none;
+}
+
+html, body {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+header {
+  position: static;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  background: transparent;
+  padding: 22px 20px 10px;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+h1 {
+  font-size: 24px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+#container {
+  max-width: 1024px;
+  gap: 14px;
+}
+
+#searchInput,
+#sortSelect,
+.download,
+button,
+#importBtn,
+#importModal button,
+#backBtn,
+.repo-actions .copyBtn,
+.repo-actions .removeBtn {
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+#searchInput,
+#sortSelect {
+  background: #0f0f0f;
+  border: 1px solid #2a2a2a;
+}
+
+#sortSelect {
+  height: calc(100% - 10px);
+}
+
+#importBtn {
+  background: transparent;
+  border: 1px solid #2a2a2a;
+}
+
+.repo-card,
+.card,
+.appinfo-box,
+#importModal .box {
+  background: #101010;
+  border: 1px solid #2a2a2a;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.download,
+button,
+#importModal button {
+  background: transparent;
+  border: 1px solid #2a2a2a;
+  color: #ededed;
+}
+
+.download:active,
+button:active,
+#importBtn:active,
+#importModal button:active {
+  transform: scale(.98);
+  box-shadow: none;
+}
+
+.meta .version,
+.meta .size,
+.permissions span,
+.version-badge {
+  background: #0f0f0f;
+  color: #ededed;
+  border: 1px solid #2a2a2a;
+}
+
+.footer {
+  border-top: 1px solid #2a2a2a;
+  margin-top: 24px;
+  padding-top: 20px;
+}
