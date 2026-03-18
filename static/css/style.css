@@ -794,3 +794,52 @@ button:active,
   margin-top: 24px;
   padding-top: 20px;
 }
+
+@media (max-width: 640px) {
+  header {
+    padding: 16px 12px 8px;
+  }
+
+  h1 {
+    font-size: 20px;
+    letter-spacing: 0.06em;
+  }
+
+  #container {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  #searchBar {
+    gap: 8px;
+  }
+
+  #searchInput {
+    padding-right: 90px;
+    font-size: 15px;
+  }
+
+  #sortSelect {
+    right: 4px;
+    height: calc(100% - 8px);
+    padding: 0 8px;
+  }
+
+  #importBtn {
+    min-height: 42px;
+    padding: 10px 14px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 6px;
+    text-align: center;
+    font-size: 12px;
+    padding: 16px 12px 24px;
+  }
+
+  .github-link {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
