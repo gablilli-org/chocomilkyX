@@ -1,6 +1,6 @@
 {
-  "name": "chocomilkyX",
-  "short_name": "chocomilkyX",
+  "name": "IPA Analyzer",
+  "short_name": "IPA Analyzer",
   "description": "iPA repositories browser",
   "start_url": "/",
   "scope": "/",
